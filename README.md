@@ -22,6 +22,10 @@ Various scripts and notes for setting up Fedora Silverblue.
 
     toolbox enter name
 
+### Update everything in the toolbox
+
+    sudo dnf update --refresh
+
 ### Install R and RStudio Desktop inside the toolbox
 
     sudo dnf install R rstudio-desktop
