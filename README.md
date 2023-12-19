@@ -26,13 +26,13 @@ Various scripts and notes for setting up Fedora Silverblue.
 
     sudo dnf update --refresh
 
-### Install some common tools inside the toolbox
+### Install some common tools and packages inside the toolbox
 
-    sudo dnf install btop htop cpufetch
+    sudo dnf install btop htop cpufetch fira-code-fonts
 
-### Install R, RStudio Desktop and Fira Code font inside the toolbox
+### Install R and RStudio Desktop inside the toolbox
 
-    sudo dnf install R fira-code-fonts rstudio-desktop
+    sudo dnf install R rstudio-desktop
 
 ### Install GnuCOBOL inside the toobox
 
