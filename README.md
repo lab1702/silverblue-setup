@@ -36,7 +36,7 @@ Various scripts and notes for setting up Fedora Silverblue.
 
 ### Install GnuCOBOL inside the toobox
 
-    sudo dnf install gnucobol
+    sudo dnf install gnucobol gnucobol-esql
 
 ### Install Visual Studio Code inside the toolbox
 
