@@ -14,14 +14,6 @@ Various scripts and notes for setting up Fedora Silverblue.
 
     flatpak run nz.mega.MEGAsync
 
-## Install Visual Studio Code
-
-    flatpak install flathub com.visualstudio.code
-
-### Run Visual Studio Code from command line
-
-    flatpak run com.visualstudio.code
-
 ## Create and enter a toolbox for GnuCOBOL
 
     toolbox create cobol
@@ -30,3 +22,10 @@ Various scripts and notes for setting up Fedora Silverblue.
 ### Install GnuCOBOL inside the toobox
 
     dnf install gnucobol
+
+### Install Visual Studio Code inside the toolbox
+
+    sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
+    sudo sh -c 'echo -e "[code]\nname=Visual Studio Code\nbaseurl=https://packages.microsoft.com/yumrepos/vscode\nenabled=1\ngpgcheck=1\ngpgkey=https://packages.microsoft.com/keys/microsoft.asc" > /etc/yum.repos.d/vscode.repo'
+    sudo dnf check-update
+    sudo dnf install code
