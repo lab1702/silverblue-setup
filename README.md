@@ -14,10 +14,17 @@ Various scripts and notes for setting up Fedora Silverblue.
 
     flatpak run nz.mega.MEGAsync
 
-## Create and enter a toolbox for GnuCOBOL
+## Create a toolbox
 
-    toolbox create cobol
-    toolbox enter cobol
+    toolbox create name
+
+### Enter a toolbox
+
+    toolbox enter name
+
+### Install R and RStudio Desktop inside the toolbox
+
+    sudo dnf install R rstudio-desktop
 
 ### Install GnuCOBOL inside the toobox
 
