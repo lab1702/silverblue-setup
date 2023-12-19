@@ -26,9 +26,9 @@ Various scripts and notes for setting up Fedora Silverblue.
 
     sudo dnf update --refresh
 
-### Install R and RStudio Desktop inside the toolbox
+### Install R, RStudio Desktop and Fira Code font inside the toolbox
 
-    sudo dnf install R rstudio-desktop
+    sudo dnf install R fira-code-fonts rstudio-desktop
 
 ### Install GnuCOBOL inside the toobox
 
