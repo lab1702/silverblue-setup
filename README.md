@@ -1,4 +1,4 @@
-# sliverblue-setup
+# silverblue-setup
 
 Various scripts and notes for setting up Fedora Silverblue.
 
