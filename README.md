@@ -2,6 +2,10 @@
 
 Various scripts and notes for setting up Fedora Silverblue.
 
+## Set dark mode
+
+    gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
+
 ## Enabling Flathub
 
     flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
