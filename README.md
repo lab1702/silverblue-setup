@@ -2,27 +2,35 @@
 
 Various scripts and notes for setting up Fedora Silverblue.
 
-## Install Firefox codecs
+## Install to base OS image
+
+### Install Firefox codecs
 
     sudo rpm-ostree install mozilla-openh264
 
-## Enabling Flathub
+### Enabling Flathub
 
     flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 
-## Install MEGAsync
+## Install Flatpaks
+
+### Install MEGAsync
 
     flatpak install flathub nz.mega.MEGAsync
 
-### Run MEGAsync from command line
+### Install Steam
 
-    flatpak run nz.mega.MEGAsync
+    flatpak install flathub com.valvesoftware.Steam
 
+### Install Discord
+
+    flatpak install flathub com.discordapp.Discord
+    
 ## Create a toolbox
 
     toolbox create name
 
-### Enter a toolbox
+## Enter a toolbox
 
     toolbox enter name
 
