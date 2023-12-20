@@ -42,6 +42,10 @@ Various scripts and notes for setting up Fedora Silverblue.
 
     sudo dnf install fira-code-fonts R rstudio-desktop
 
+### Install Python inside the toolbox
+
+    sudo dnf install python3-virtualenv
+
 ### Install GnuCOBOL inside the toobox
 
     sudo dnf install gnucobol gnucobol-esql
