@@ -2,9 +2,9 @@
 
 Various scripts and notes for setting up Fedora Silverblue.
 
-## Set dark mode
+## Install Firefox codecs
 
-    gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
+    sudo rpm-ostree install mozilla-openh264
 
 ## Enabling Flathub
 
