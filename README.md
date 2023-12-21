@@ -6,7 +6,7 @@ Various scripts and notes for setting up Fedora Silverblue.
 
 ### Install Firefox codecs
 
-    sudo rpm-ostree install mozilla-openh264 gnome-shell-extension-appindicator
+    sudo rpm-ostree install mozilla-openh264
 
 ### Enabling Flathub
 
